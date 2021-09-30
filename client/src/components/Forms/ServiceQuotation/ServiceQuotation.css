@@ -1,0 +1,93 @@
+/* =========service quotation banner========= */
+.service-quotation-banner{
+    height: 40vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../../assets/ship2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    bottom: 20px;
+}
+
+.service-quotation-banner-content{
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.service-quotation-banner-h3{
+    font-size:30px;
+    font-family: Monda;
+    color: white;
+    text-decoration: underline;
+}
+
+.service-quotation-banner-p{
+    font-size: 18px;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+    .service-quotation-banner{
+        height: 80vh;
+    }
+}
+
+/* =========service quotation form========== */
+.service-quotation-form{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.service-quotation-form-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+}
+
+.the-service-quotation-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 90vw;
+    min-height: 75vh;
+}
+
+.service-quotation-small-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-quotation-small-input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+@media (max-width: 900px){
+    .service-quotation-left{
+        display: none;
+    }
+    .service-quotation-small-inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .the-service-quotation-form{
+        min-width: 90vw;
+        margin: auto;
+    }
+}

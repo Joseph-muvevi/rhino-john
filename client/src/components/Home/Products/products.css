@@ -1,0 +1,139 @@
+.products{
+    min-height: 100vh;
+    /* background-color: #202020; */
+    /* background-color: #333232; */
+    /* background-color: #333232; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.products-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.products-content-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.products-content-left{
+    width: 30vw;
+    height: 90vh;
+    background-image: url(../../../assets/diamond\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:  2px;
+    filter: drop-shadow(2px 4px 5px black);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.products-content-left-txt{
+    background-color: rgba(0, 0, 0, 0.419);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding: 10px;
+    height: 100%;
+}
+
+.products-content-left-header{
+    font-family: Monda;
+    font-size: 40px;
+}
+
+.products-content-left-p{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.products-content-right{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.products-right-cards-row{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.products-bottom-card-One{
+    width: 250px;
+    height: 320px;
+    padding: 10px;
+    background-color: #333232;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    filter: drop-shadow(2px 4px 5px black);
+    text-decoration: none;
+}
+
+.products-card-image-metal{
+    background-image: url(../../../assets/minerals.jpg);
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    padding: 0 !important;
+}
+
+.products-card-image-medicals{
+    background-image: url(../../../assets/medical\ 1.jpg);
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    padding: 0 !important;
+}
+
+.products-card-image-cooling{
+    background-image: url(../../../assets/fridge.jpg);
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    padding: 0 !important;
+}
+
+
+@media screen and (max-width: 1400px){
+    .products-content-left{
+        display: none;
+    }
+    .products-content-right{
+        width: 90vw;
+    }
+}
+@media screen and (max-width: 990px){
+    .products-right-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .products-right-cards-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

@@ -1,0 +1,95 @@
+/* =======The banner======= */
+.logistics-quotation-banner{
+    height: 40vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../../assets/ship2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    bottom: 20px;
+}
+
+.logistics-quotation-banner-content{
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.logistics-quotation-banner-h3{
+    font-size: 30px;
+    font-family: Monda;
+    color: white;
+    text-decoration: underline;
+}
+
+.logistics-quotation-banner-p{
+    font-size: 18px;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+    .logistics-quotation-banner{
+        height: 80vh;
+    }
+}
+
+/* =========logistics quotation form========== */
+.logistics-quotation-form-client{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.logistics-quotation-form-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+}
+
+
+.the-logistics-quotation-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 75vh;
+}
+
+.logistics-quotation-small-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logistics-quotation-small-input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+@media (max-width: 900px){
+    .logistics-quotation-left{
+        display: none;
+    }
+    .logistics-quotation-small-inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .the-logistics-quotation-form{
+        min-width: 90vw;
+        margin: auto;
+    }
+}

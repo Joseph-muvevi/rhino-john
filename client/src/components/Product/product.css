@@ -1,0 +1,365 @@
+/* =======Banner======= */
+.product-banner{
+    height: 40vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../assets/miningtools.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    bottom: 20px;
+}
+
+.product-banner-content{
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.product-banner-h3{
+    font-size: 30px;
+    font-family: Monda;
+    color: white;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 900px){
+    .product-banner{
+        height: 110vh;
+        max-width: 100vw;
+    }
+}
+
+/* ========product content======== */
+.products{
+    min-height: 100vh;
+    background-color: #333232;
+    background-attachment: fixed;
+    position: relative;
+    bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.product-content{
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+
+.product-content-bottom{
+    text-align: left;
+    width: 100%;
+}
+
+.product-content-values-row{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.product-content-values-item{
+    width: 450px;
+    height: 530px;
+    padding: 10px;
+    background-color: #333232;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    filter: drop-shadow(2px 4px 5px black);
+    text-decoration: none;
+}
+
+.product-content-values-item-diamond{
+    width: 450px;
+    height: 530px;
+    padding: 10px;
+    background-color: #333232;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    filter: drop-shadow(2px 4px 5px black);
+    text-decoration: none;
+}
+
+.product-content-bottom-h3{
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+    font-family: Monda;
+    text-align: left;
+    line-height: 0%;
+}
+
+.product-content-values-h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: -10px ;
+}
+
+.product-content-values-p{
+    font-size: 16px;
+    font-family: Monda;
+}
+
+.product-content-card-image-one{
+    background-image: url(../../assets/naturalgold1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+}
+
+.product-content-card-image-two{
+    background-image: url(../../assets/naturaldiamond.png);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+}
+
+.product-content-card-image-three{
+    background-image: url(../../assets/coppercathode.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+}
+
+.product-content-card-image-four{
+    background-image: url(../../assets/coltan.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+}
+
+.product-content-card-image-five{
+    background-image: url(../../assets/cassiterite.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+}
+
+.product-content-card-image-six{
+    background-image: url(../../assets/cobalt.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+}
+
+.product-content-card-image-seven{
+    background-image: url(../../assets/naturalsilver.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+}
+
+.product-content-card-image-eight{
+    background-image: url(../../assets/gemstones1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+}
+
+.product-content-button{
+    width: 200px
+}
+
+
+@media screen and (max-width: 900px){
+    .product-content-values-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .product-content-values-item{
+        width: 300px;
+        height: 630px;
+    }
+    .product-content-values-item-diamond{
+        width: 300px;
+        height: 730px;
+    }
+    .product-content-values-h3{
+        margin: 4%;
+    }
+    .lower-button-group{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+}
+
+/* =========product footer=========== */
+.product-footer{
+    min-height: 70vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.686), rgba(0, 0, 0, 0.885)),url(../../assets/miningtools.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+}
+
+.product-footer-content{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-footer-top{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.product-footer-top-left{
+    width: 32%;
+    /* background-color: aqua; */
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.product-footer-left-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.f-logo{
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 5px black;
+}
+
+.product-footer-logo{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.product-footer-social-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.product-footer-logo-text{
+    /* font-size: 60px; */
+    font-family: Monda;
+    color: white;
+}
+
+.product-footer-title{
+    text-align: left;
+}
+
+.product-footer-input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.product-footer-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.product-footer-top-middle{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.product-footer-top-right{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.product-footer-bottom{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe{
+    margin-top: 20px;
+}
+
+.product-footer-ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 900px){
+    .product-footer-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: left;
+        width: 90vw;
+        padding: 0;
+    }
+    .product-footer-top-left{
+        width: 90vw;
+    }
+
+    .product-footer-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .product-footer-top-middle{
+        width: 90vw;
+    }
+    .product-footer-top-right{
+        width: 90vw;
+    }
+}

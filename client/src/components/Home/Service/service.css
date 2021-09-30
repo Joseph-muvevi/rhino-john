@@ -1,0 +1,166 @@
+.home-service{
+    display: none;
+    min-height: 100vh;
+    background-color: #202020;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    border-top: 2px;
+    border-color: #1f1f1f;
+}
+
+.home-service-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.home-service-content-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.home-service-content-left{
+    width: 30vw;
+    height: 85.3vh;
+    background-image: url(../../../assets/truck\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:  2px;
+    filter: drop-shadow(2px 4px 5px black);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.home-home-service-button{
+    width: 200px !important
+}
+
+.home-service-content-left-txt{
+    background-color: rgba(0, 0, 0, 0.419);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding: 10px;
+    height: 100%;
+}
+
+.home-service-content-left-header{
+    font-family: Monda;
+    font-size: 40px;
+}
+
+.home-service-content-left-p{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.home-service-content-right{
+    width: 60vw;
+}
+
+.home-service-right-cards-row{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.home-service-bottom-card-One{
+    width: 250px;
+    height: 320px;
+    padding: 10px;
+    background-color: #333232;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    filter: drop-shadow(2px 4px 5px black);
+    text-decoration: none;
+}
+
+.home-service-image-cards-land{
+    background-image: url(../../../assets/truck.jpg);
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    padding: 0 !important;
+}
+
+.home-service-image-cards-sea{
+    background-image: url(../../../assets/sea\ 2.jpg);
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    padding: 0 !important;
+}
+
+.home-service-image-cards-tracking{
+    background-image: url(../../../assets/desk.jpg);
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    padding: 0 !important;
+}
+
+.home-service-image-cards-storage{
+    background-image: url(../../../assets/warehousing.jpg);
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    padding: 0 !important;
+}
+
+.home-service-image-cards-air{
+    background-image: url(../../../assets/cargoplane\ 1.jpg);
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    padding: 0 !important;
+}
+
+.link-cards{
+    display: none;
+}
+
+@media screen and (max-width: 1400px){
+    .home-service-content-left{
+        display: none;
+    }
+    .link-cards{
+        display: flex;
+    }
+    .home-service-content-right{
+        width: 90vw;
+    }
+}
+@media screen and (max-width: 990px){
+    .home-service-right-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .home-service-right-cards-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

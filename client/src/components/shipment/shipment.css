@@ -1,0 +1,389 @@
+/* =======shipment banner========= */
+.shipment-banner{
+    min-height: 30vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../assets/container.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    /* position: relative;
+    bottom: 20px;
+    z-index: 15; */
+}
+
+.shipping-input-groups{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.shipment-banner-content{
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.shipment-banner-content-group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shipment-banner-h3{
+    font-size: 30px;
+    font-family: Monda;
+    color: white;
+    text-decoration: underline;
+}
+
+.shipment-banner-p{
+    font-size: 24px;
+    color: white;
+}
+
+.storage-table-headers-left{
+    min-width: 35vw;
+}
+
+.storage-table-headers-middle{
+    min-width: 35vw;
+}
+
+@media screen and (max-width: 900px){
+    .shipment-banner{
+        height: 80vh;
+    }
+}
+
+/* =======shipment table=========== */
+
+.track-shipment-top-h2{
+    font-size: 25px;
+    font-family: Monda;
+    text-align: left;
+    color: white
+}
+
+.track-shipment-top-p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.shipment-table{
+    min-height: 10vh;
+    background-attachment: fixed;
+    position: relative;
+    bottom: 20px;
+    padding: 20px;
+}
+
+.shipping-table-form{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.shipment-table-content{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: white;
+    font-family: Monda;
+}
+
+.shipment-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+
+}
+
+.shipment-card-content{
+    min-width: 90vw;
+    margin: auto;
+    /* background-color: rgb(19, 19, 19); */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.shipment-card-content-li{
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+.storage-table-headers-client{
+    background-color: rgb(19, 19, 19);
+    width: 90vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+	text-align: left;
+}
+
+
+/* ========Storage table header================= */
+
+.storage-table-headers-body-heading{
+    margin-left: 30px;
+}
+
+.header-info-container{
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	width: 90.7% !important;
+	margin-left: 2.3%;
+	max-height: min-content;
+	padding: 10px;
+	
+}
+
+.font-awesome-sign-alt-icon{
+	margin-top: 30px;
+}
+
+.storage-content-table{
+	min-width: 100%;
+    background-color: grey;
+}
+
+.storage-table-headers-body{
+	max-width: 21vw;
+	text-align: justify !important;
+}
+
+.storage-table-headers-body-head{
+    text-align: justify
+}
+
+.storage-table-headers-body-heading{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+.storage-table-headers-h3{
+	text-transform: capitalize;
+	font-family: "Monda";
+	color: white ;
+	font-weight: 900;
+	margin-top: -10px
+}
+
+.storage-table-headers-h3-estimated{
+	text-transform: capitalize;
+	font-family: "Monda";
+	color: white ;
+	font-weight: 900;
+	margin-left: 1.875rem;
+	margin-top: -10px;
+}
+
+.storage-table-headers-h3-flex{
+	text-transform: capitalize;
+	font-family: "Monda";
+	color: white ;
+	font-weight: 900;
+	margin-top: -10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	min-width: 17.8vw;
+	max-width: 21vw;
+}
+.storage-table-headers-h3-sign{
+	text-transform: capitalize;
+	font-family: "Monda";
+	color: white ;
+	font-weight: 900;
+	margin-top: -10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	min-width: 220px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.storage-table-headers-p{
+	margin-top: -15px;
+	padding-left: 30px;
+}
+
+.storage-table-headers-p-sign{
+	margin-top: -15px;
+	padding-left: 30px;
+	margin-left: -1rem
+
+}
+/* ==========Shipment table content==================== */
+.storage-content-table-content-topic{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    padding-left: 5px;
+}
+
+/* for storage */
+.storage-content-table-content-info{
+    background-color: rgb(68, 56, 56);
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    /* padding-left: 5px; */
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+}
+/* for shipmnet */
+
+.storage-content-table-content-topic-upper{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    /* padding-left: 5px; */
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+
+}
+
+.fontawesome-chrevron{
+	font-size: 12px;
+	margin-left: -27px;
+	padding-right: 7.5px;
+}
+
+.storage-content-table-content-topic-p{
+    width: 21.25vh;
+}
+
+.storage-content-table-content-topic-p-number{
+    width: 5vh;
+}
+.storage-content-table-content-topic-p-description{
+    width: 35.25vh;
+}
+.storage-content-table-content-topic-p-unit{
+    width: 8.25vh;
+}
+.storage-content-table-content-topic-p-packaging{
+    width: 15vh;
+}
+.storage-content-table-content-topic-p-weight{
+    width: 15vh;
+}
+
+.storage-content-table-content-topic-lower{
+    margin-left: 11px;
+    /* padding-left: -10px; */
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    border-bottom: none;
+}
+
+.track-number-background{
+    background-color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.storage-content-table-content-topic-observation{
+    max-width: 100%;
+}
+
+.storage-content-table-content-topic-lower-observation{
+    background-color: grey;
+    width: 102%;
+    margin-left: -0.72%;
+}
+
+
+/* ============THE TRACKING SECTION================== */
+.terniary-condition-p{
+    width: 100%; 
+    text-align: center;
+    background-color: grey;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* =================TRACKING TYPE=================== */
+.track-type{
+    min-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-height: 50vh;
+}
+
+.track-type-h3{
+    color: white;
+    font-size: 18px;
+    font-family: Monda;
+}
+
+.tracktype-link-group{
+    margin: auto;
+    max-width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grey-item-container{
+	background-color: white;
+}
+
+.white-background-red-text{
+	background-color: white;
+	padding: 2px;
+	font-weight: 900;
+	margin-left: -1.7rem;
+}
+
+@media screen and (max-width: 900px) {
+    .tracktype-link-group{
+        display: flex;
+        flex-direction: column
+    }
+    .storage-table-headers-client{
+        display: flex;
+        flex-direction: column;
+    }
+    .storage-content-table-content-topic{
+        display: none;
+    }
+    .storage-content-table-content-topic-upper{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .storage-header-phone-only{
+        width: 150px;
+    }
+}

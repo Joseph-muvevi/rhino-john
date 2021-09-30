@@ -1,0 +1,95 @@
+/* =====service type banner====== */
+.service-type-banner{
+    height: 40vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../../../assets/cargoplane\ 1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    bottom: 20px;
+}
+
+.service-type-banner-content{
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.service-type-banner-h3{
+    font-size: 30px;
+    font-family: Monda;
+    color: white;
+    text-decoration: underline;
+}
+
+.service-type-banner-p{
+    font-size: 18px;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+    .service-type-banner{
+        height: 80vh;
+    }
+}
+
+/* =====service types===== */
+.service-types{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-types-container{
+    width: 78vw;
+    margin: auto;
+}
+
+.service-types-cards-row{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service-types-card{
+    width: 450px;
+    height: 500px;
+    background-color: #333232;
+    color: white;
+    font-family: Monda;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    filter: drop-shadow(2px 4px 5px black);
+    text-decoration: none;
+}
+
+.service-types-card-content{
+    text-align: left;
+    padding: 10px;
+}
+
+.service-types-card-image-one{
+    background-image: url(../../../../assets/vault.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 45%;
+    padding: 10px;
+}
+
+.service-types-card-image-two{
+    background-image: url(../../../../assets/truck\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 45%;
+    padding: 10px;
+}
+
+.services-types-card-button{
+    width: 200px
+}

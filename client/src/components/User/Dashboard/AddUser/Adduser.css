@@ -1,0 +1,97 @@
+.add-user-general{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 17.5vw;
+	min-height: 100vh;
+	padding-top: 20px
+}
+
+.dash-add-user-admin-banner{
+	width: 80vw;
+	min-height: 50vh;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../../../assets/register.jpg);
+	border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dash-add-user-admin-banner-content{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	color: white;
+	font-family: Monda;
+	justify-content: flex-end;
+	align-items: flex-start;
+	max-width: 100%;
+	min-height: 50vh;
+}
+.dash-add-user-admin-banner-content-h3{
+	font-size: 25px
+}
+/* @media screen and (max-width : 1000px) {
+	.add-user-general{
+		margin-left: 0px
+	}
+} */
+
+
+
+@media screen and (max-width: 1000px){
+	.add-user-general{
+		padding-top: 0px;
+		max-width: 100vw;
+		margin-left: 0px;
+	}
+	.dash-add-user-admin-banner{
+		width:  100vw;
+	}
+}
+
+
+/* =============the form===================== */
+.signup-form{
+	margin-top: 30px;
+}
+
+.signup-form-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 82.5vw;
+	padding: 0;
+}
+
+.the-sign-up-form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 78vw;
+	margin: auto;
+}
+
+.sign-up-form-small-inputs{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: left;
+	width: 100%;
+}
+
+.sign-up-form-small-input-group{
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 900px){
+	.sign-up-form-small-inputs{
+		display: flex;
+		flex-direction: column !important;
+	}
+}

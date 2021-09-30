@@ -1,0 +1,37 @@
+.contact-banner{
+    height: 40vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../../assets/ship2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    bottom: 20px;
+}
+
+.contact-banner-content{
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.contact-banner-h3{
+    font-size: 30px;
+    font-family: Monda;
+    color: white;
+    text-decoration: underline;
+}
+
+.contact-banner-p{
+    font-size: 24px;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+    .contact-banner{
+        height: 80vh;
+    }
+}

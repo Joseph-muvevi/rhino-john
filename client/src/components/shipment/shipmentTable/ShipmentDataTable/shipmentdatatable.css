@@ -1,0 +1,191 @@
+.shipment-card{
+    max-width: 80vw;
+    margin: auto;
+}
+.shipment-table-headers-client{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    display: flex;
+    padding: 10px;
+    min-height: 40vh;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+
+}
+
+.font-awesome-sign-alt-icon{
+    margin-top: 54px;
+}
+
+.header-info-container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.shipment-table-headers-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    min-width: 27vw;
+    text-align: left !important;
+}
+
+
+.shipment-tabe-headers-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    min-width: 27vw;
+    text-align: left !important;
+}
+
+.shipment-tabe-headers-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    min-width: 27vw;
+    text-align: left !important;
+}
+
+
+.shipment-table-headers-p{
+    margin-left: 27px;
+    margin-top: -15px;
+}
+
+.grey-item-container-shipment{
+    background-color: white;
+    font-family: Monda;
+    color: green;
+    margin-left: 20px
+}
+
+.grey-item-container-shipment-arrow{
+    background-color: white;
+    font-family: Monda;
+    color: green;
+    margin-left: -24px;
+    text-align: justify;
+}
+
+.shipment-table-headers-h3-flex{
+    display: flex;
+    
+}
+
+
+
+.shipment-tabe-headers-right{
+    margin-left: 10px;
+}
+
+.shipment-table-headers-h3-sign{
+    display: flex;
+    align-items: center;
+}
+
+.shipment-table-headers-p-sign{
+    margin-left: 20px
+}
+
+/* ===========CLIENT TABLE============== */
+
+.shipment-content-table{
+	min-width: 100%;
+    background-color: grey;
+}
+
+.shipment-content-table-content-topic{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+
+.shipment-content-table-content-info{
+    background-color: rgb(68, 56, 56);
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    text-align: left;
+}
+
+.shipment-content-table-content-topic-hash{
+    min-width: 4%;
+    padding-right: 1%
+}
+
+.shipment-content-table-content-topic-date{
+    min-width: 33%;
+    padding-right: 1%;
+    padding-left: 1%
+}
+
+.shipment-content-table-content-topic-location{
+    min-width: 28%;
+    padding-right: 1%;
+    padding-left: 1%
+}
+
+.shipment-content-table-content-topic-time{
+    min-width: 13%;
+    padding-right: 1%;
+    padding-left: 1%
+}
+
+.shipment-content-table-content-topic-pieces{
+    min-width: 14%;
+    padding-left: 1%
+}
+
+@media screen and (max-width: 900px) {
+    .shipment-table-headers-client{
+        display: flex;
+        flex-direction: column;   
+    }
+    .font-awesome-sign-alt-icon{
+        display: none;
+    }
+    .header-info-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .shipment-content-table-content-topic{
+        display: none
+    }
+    .shipment-content-table-content-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .shipment-content-table-content-topic-hash{
+        display: flex;
+        text-align: left;
+    }
+    .shipment-content-table-content-topic-date{
+        display: flex;
+        text-align: left;
+    }
+    .shipment-content-table-content-topic-location{
+        display: flex;
+        text-align: left;
+    }
+    .shipment-content-table-content-topic-time{
+        display: flex;
+        text-align: left;
+    }
+    .shipment-header-phone-only{
+        width: 150px
+    }
+}

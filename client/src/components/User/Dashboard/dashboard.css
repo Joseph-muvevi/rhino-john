@@ -1,0 +1,423 @@
+.dashboard{
+	min-height: 150vh;
+	display: flex;
+	justify-content: space-between;
+	background-color: #1f1f1f;
+	margin-top: 0% !important;
+}
+
+
+.dashboard-main{
+	margin: auto
+}
+
+.dont-display{
+	display: none
+}
+
+.dashboard-nav-phone{
+	display: none
+}
+
+@media(max-width: 900px){
+	.dashboard{
+		display: flex;
+		flex-direction: column;
+	}
+	.dashboard-nav{
+		display: none;
+	}
+	.dashboard-main{
+		/* margin-left: -30vw; */
+		padding: 0;
+	}
+	.dashboard-nav-phone{
+		display:block
+	}
+}
+
+/* =======Dashboard navigation====== */
+.dash-nav{
+	width: 17.5vw;
+	background-color: rgb(19, 19, 19);
+	position: fixed;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.dash-nav-logo{
+	max-width: 200px;
+	margin: 20px;
+}
+
+.dash-nav-user-info{
+	padding: 10px;
+}
+
+.dash-nav-user-info-card{
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	width: 16vw;
+	box-shadow: 2px 4px 4px black;
+	background-color: #333232;
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+	font-family: Monda;
+	color: #efc76c;
+}
+
+.dash-nav-user-h3{
+	font-family: Monda;
+}
+
+.dash-nav-ul{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 17.5vw;
+	margin-top: 30px;
+	font-family: Monda;
+}
+
+.dash-nav-li{
+	width: 100%;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	border-bottom: solid black;
+	border-bottom-width: 1px;
+}
+
+.dash-nav-li:hover{
+	background-color: goldenrod;
+	color: #1f1f1f;
+	cursor: pointer;
+}
+
+.dash-nav-li:active{
+	background-color: goldenrod;
+	color: #1f1f1f;
+	cursor: pointer;
+}
+
+.dash-nav-li:focus{
+	background-color: goldenrod;
+	color: #1f1f1f;
+	cursor: pointer;
+}
+
+.dash-nav-li-items{
+	width: 15vw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: auto;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.dash-nav-li-items-p{
+	padding-left: 2rem;
+}
+
+/* ========Dashboard home======= */
+.dashboard-home{
+	margin-left: 17.5vw;
+}
+
+
+@media screen and (max-width: 1000px){
+	.dashboard-home{
+		padding-top: 0px;
+		max-width: 100vw;
+		margin-left: 0px;
+	}
+	.dashboard-home-banner{
+		width:  100vw;
+	}
+}
+
+/* =============Dashboard banner=========== */
+.dashboard-home-banner{
+	max-width: 78vw;
+	display: grid;
+	grid-template-columns: 1fr ;
+	gap: 20px;
+	padding-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.dashboard-banner-long{
+	background-image: url(../../../assets/logistics.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 5px;
+	height: 450px;;
+}
+
+.dashboard-banner-long-content{
+	background-color: rgba(0, 0, 0, 0.404);
+	height: 100%;
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.dashboard-banner-long-content-h3{
+	font-size: 30px;
+	font-family: Monda;
+	color: white;
+}
+
+
+.dashboard-banner-buttons{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+@media screen and (max-width: 1000px){
+	.dashboard-banner{
+		margin-left: auto;
+		max-width: 100vw !important;
+	}
+	
+	.dashboard-banner-long{
+		border-radius: 0px;
+		height: 450px;
+		width: 100vw;
+	}
+	.dashboard-banner-buttons{
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+		margin-left: 0%;
+		width: 90vw;
+	}
+}
+
+/* ========Dashboard Top cards============= */
+.dashboard-cards{
+	width: 70vw;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+.dashboard-cards-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 8px
+
+}
+
+.dashboard-card{
+	width:340px;
+	height: 340px;
+	background-color: #333232;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	color: white;
+}
+
+.dashboard-card-circle{
+	background-color: black;
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 50;
+	background: radial-gradient(circle at 100px 20px, #333232, #000);
+}
+
+.dashboard-card-h3{
+	font-size: 25px;
+}
+
+.dashboard-card-p{
+	font-size: 20px;
+	text-decoration: none;
+	color: white
+}
+
+
+/* =========DASHBOARD TABLE============ */
+.dashboard-home-table{
+	background-color: #333232;
+	border-radius: 5px;
+	width: 78vw;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 450px;
+}
+
+.the-dashboard-home-table{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.hdht{
+	max-width: 70vw !important;
+	min-height: 300px;
+}
+
+.lower-table-items{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/* ==========DASHBOARD FILTER========== */
+.dashboard-home-filter{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/* =========ANALITICS============== */
+.analitics{
+	margin-left: 17.5vw;
+}
+.analitics-banner{
+	width: 78vw;
+	margin-right: auto;
+	margin-left: auto;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 20px;
+	padding-top: 40px;
+}
+
+.analitics-banner-left{
+	min-height: 500px;
+	max-height: 80vh;
+	display: grid;
+	grid-template-rows: 2fr 1fr 1fr;
+	gap: 20px;
+}
+
+.analitics-banner-left-grids-long{
+	background-color: rgb(19, 19, 19);
+	border-radius: 5px;
+	grid-column: 1/3;
+	min-height: 500px;
+	row-gap: 20px;
+	margin-bottom: 60px;
+	/* grid-row: 1/2; */
+}
+
+
+.analitics-banner-right{
+	background-color: rgb(19, 19, 19);
+	max-height: 500px;
+	border-radius: 5px;
+	row-gap: 20px;
+}
+
+
+/* ==========ANALITICS STATS========== */
+.analitics-stats{
+	max-width: 78vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	min-height: 50vh;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 20px
+}
+
+.analitics-stats-line{
+	background-color: goldenrod;
+	border-radius: 5px;
+}
+
+.analitics-stats-pie{
+	background-color: green;
+	border-radius: 5px;
+}
+
+
+/* ============TABLES=============== */
+.dash-table{
+	margin-left: 17.5vw;
+}
+.dash-tables{
+	max-width: 78vw;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	min-height: 50vh;
+}
+
+.table-input{
+	width: 100%;
+	display: flex;
+	justify-content: stretch
+}
+
+/* =============DASHBOARD FORMS ============== */
+.dash-forms{
+	margin-left: 17.5vw;
+	margin-top: 0px;
+}
+.dash-forms-banner{
+	max-width: 78vw;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	border-radius: 5px;
+	height: 60vh;
+	background-image: url(../../../assets/logistics.jpg);
+	background-size: cover;
+	background-position: cover
+}
+
+.dash-forms-banner-content{
+	background-color: rgba(0, 0, 0, 0.664);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center
+}
+
+.dash-forms-banner-content-btn{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.dash-forms-btn{
+	width: 150px;
+}

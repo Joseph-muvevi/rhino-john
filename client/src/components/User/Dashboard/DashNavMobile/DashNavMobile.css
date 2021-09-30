@@ -1,0 +1,25 @@
+.dash-mobile-navbar{
+    background-color: black;
+}
+.dash-mobile-navbar-logo{
+    display: none;
+}
+
+.dash-mobile-navbar-content{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dash-mobile-navbar-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.dash-mobile-navbar-fonts{
+    text-decoration: none;
+    color: white
+
+}

@@ -1,0 +1,308 @@
+.logistics-banner{
+    height: 40vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../../../../assets/plane.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    bottom: 20px;
+}
+
+.logistics-banner-content{
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.logistics-banner-h3{
+    font-size: 30px;
+    font-family: Monda;
+    color: white;
+    text-decoration: underline;
+}
+
+.logistics-banner-p{
+    font-size: 24px;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+    .logistics-banner{
+        height: 80vh;
+    }
+}
+
+/* =========The content=========== */
+.logistics-content{
+    min-height: 100vh;
+    /* background-color: #202020; */
+    background-color: #333232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.logistics-content-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logistics-content-content-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logistics-content-content-left{
+    width: 30vw;
+    height: 80vh;
+    background-image: url(../../../../../assets/truck.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:  2px;
+    filter: drop-shadow(2px 4px 5px black);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.logistics-content-content-left-txt{
+    background-color: rgba(0, 0, 0, 0.419);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding: 10px;
+    height: 100%;
+}
+
+.logistics-content-content-left-header{
+    font-family: Monda;
+    font-size: 40px;
+}
+
+.logistics-content-content-left-p{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.logistics-content-content-right{
+    width: 60vw;
+    padding: 20px;
+    text-align: left;
+}
+
+.logistics-content-right-cards-row{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.logistics-content-bottom-card-One{
+    width: 250px;
+    height: 320px;
+    padding: 10px;
+    background-color: #333232;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    filter: drop-shadow(2px 4px 5px black)
+}
+
+.logistics-content-button{
+    width: 200px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1400px){
+    .logistics-content-content-left{
+        display: none;
+    }
+    .logistics-content-content-right{
+        width: 90vw;
+    }
+}
+@media screen and (max-width: 990px){
+    .logistics-content-right-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logistics-content-right-cards-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/* ==========The logistics-footer========== */
+.logistics-footer{
+    min-height: 70vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.686), rgba(0, 0, 0, 0.885)),url(../../../../../assets/container.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+}
+
+.logistics-footer-content{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logistics-footer-top{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.logistics-footer-top-left{
+    width: 32%;
+    /* background-color: aqua; */
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logistics-footer-left-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.f-logo{
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 5px black;
+}
+
+.logistics-footer-logo{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.logistics-footer-social-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.logistics-footer-logo-text{
+    /* font-size: 60px; */
+    font-family: Monda;
+    color: white;
+}
+
+.logistics-footer-title{
+    text-align: left;
+}
+
+.logistics-footer-input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.logistics-footer-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.logistics-footer-top-middle{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.logistics-footer-top-right{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    /* color: black; */
+}
+
+.logistics-footer-bottom{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 900px){
+    .logistics-footer-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: left;
+        width: 90vw;
+        padding: 0;
+    }
+    .logistics-footer-top-left{
+        width: 90vw;
+    }
+
+    .logistics-footer-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logistics-footer-top-middle{
+        width: 90vw;
+    }
+    .logistics-footer-top-right{
+        width: 90vw;
+    }
+}

@@ -1,0 +1,42 @@
+.the-homepage-banner{
+    max-width: 100vw !important;
+}
+
+.banner-video{
+    max-height: 100vh;
+    
+}
+
+.the-banner-video{
+    width: 100vw !important
+
+}
+
+.banner-phone-display{
+    display: none;
+}
+
+.banner-video-phone{
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+    .banner-video{
+        display: none;
+    }
+    .banner-phone-display{
+        display: block;
+        max-width: 100vw;
+    }
+    .banner-video-phone{
+        display: block;
+        max-width: 100vw;
+    }
+
+    .banner-content-p{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+}

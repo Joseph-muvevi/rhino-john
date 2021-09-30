@@ -1,0 +1,65 @@
+.quotation-form{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.quotation-form-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+}
+
+.quotation-left{
+    width: 35vw;
+    height: 75vh;
+}
+
+.quotation-form-image{
+    border-radius: 5px;
+    min-height: 40vh;
+    height: 100%;
+    width: 100%;
+}
+
+.the-quotation-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 50vw;
+    min-height: 75vh;
+}
+
+.quotation-small-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quotation-small-input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+@media (max-width: 900px){
+    .quotation-left{
+        display: none;
+    }
+    .quotation-small-inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .the-quotation-form{
+        min-width: 90vw;
+        margin: auto;
+    }
+}

@@ -1,0 +1,38 @@
+.signup-banner{
+    height: 40vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../../../assets/plane.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    bottom: 20px;
+    z-index: 15;
+}
+
+.signup-banner-content{
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.signup-banner-h3{
+    font-size: 30px;
+    font-family: Monda;
+    color: white;
+    text-decoration: underline;
+}
+
+.signup-banner-p{
+    font-size: 24px;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+    .signup-banner{
+        height: 80vh;
+    }
+}

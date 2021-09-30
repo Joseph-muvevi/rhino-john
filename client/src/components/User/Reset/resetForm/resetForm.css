@@ -1,0 +1,68 @@
+.resetform{
+		min-height: 80vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 100vw;
+		background-color: #202020;
+}
+
+.reset-content{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 90vw;
+		margin: auto;
+}
+
+.reset-left{
+		width: 35vw;
+		height: 75vh;
+}
+
+.reset-form-image{
+		border-radius: 5px;
+		min-height: 40vh;
+		height: 100%;
+		width: 100%;
+}
+
+.reset-form{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: flex-start;
+		min-width: 50vw;
+		min-height: 75vh;
+}
+
+.form-group{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: flex-start;
+}
+
+.reset-password-button {
+		width: 450px;
+		padding: 10px;
+}
+
+@media (max-width: 900px){
+		.reset-left{
+			display: none;
+		}
+		.reset-small-inputs{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.the-reset-form{
+			max-width: 90vw;
+			margin: auto;
+		}
+		.reset-password-button{
+			max-width: 90vw;
+		}
+}

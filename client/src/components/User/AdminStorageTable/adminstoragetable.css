@@ -1,0 +1,258 @@
+.admin-storage-table{
+	margin-left: auto;
+	width: 82.5vw;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+/* ==========the storage area=========== */
+
+/* .admin-storage-table-header{
+	background-color: rgb(19, 19, 17);
+	color: white;
+	font-family: Monda;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	max-width: 78vw;
+	/* margin: auto; */
+	/* padding: 10px, 2xpx;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+} */ 
+
+.admin-storage-table-header{
+	background-color: rgb(19, 19, 17);
+	color: white;
+	font-family: Monda;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	max-width: 78vw;
+	margin: auto;
+	padding: 7px 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.admin-storage-table-header-number{
+	width: 40px;
+}
+.admin-storage-table-header-tracking{
+	width: 100px;
+}
+.admin-storage-table-header-client{
+	width: 150px;
+}
+.admin-storage-table-header-id{
+	width: 100px;
+}
+.admin-storage-table-header-address{
+	width: 140px;
+}
+.admin-storage-table-header-product{
+	width: 170px;
+}
+.admin-storage-table-header-quality{
+	width: 120px;
+}
+.admin-storage-table-header-unit{
+	width: 60px;
+}
+.admin-storage-table-header-packaging{
+	width: 70px;
+}
+.admin-storage-table-header-weight{
+	width: 80px;
+}
+.admin-storage-table-header-date{
+	width: 100px;
+}
+
+.admin-storage-table-header-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	border-bottom: none;
+}
+/* ===========THE TABLE CARD ================== */
+.admin-storage-table-card{
+	width: 78vw
+}
+
+/* ========THE CONTENT SECTION=============== */
+.admin-storage-table-content{
+	background-color: grey;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 78vw;
+	margin: auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: solid;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+	/* border-bottom: solid;
+	border-color: black;
+	border-width: 2px; */
+}
+.admin-storage-unifier{
+	display: flex;
+	flex-direction: column;
+}
+
+.admin-storage-table-content-content{
+	display: flex;
+	flex-direction: column;
+}
+
+.admin-storage-table-content-upper{
+	background-color: rgb(68, 56, 56);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 78vw;
+}
+
+/* .admin-storage-table-content-p{
+	width: 6vw;
+	text-align: left;
+} */
+
+
+.admin-storage-table-content-number{
+	width: 40px;
+}
+.admin-storage-table-content-tracking{
+	width: 100px;
+}
+.admin-storage-table-content-client{
+	width: 150px;
+	margin-left: -3.4px;
+}
+.admin-storage-table-content-id{
+	width: 100px;
+	margin-left: -3.4px;
+}
+.admin-storage-table-content-address{
+	width: 140px;
+	margin-left: -3.4px;
+}
+.admin-storage-table-content-product{
+	width: 170px;
+	margin-left: -5px;
+}
+.admin-storage-table-content-quality{
+	width: 120px;
+}
+.admin-storage-table-content-unit{
+	width: 60px;
+	margin-left:-3px;
+}
+.admin-storage-table-content-packaging{
+	width: 70px;
+	margin-left:-3px;
+}
+.admin-storage-table-content-weight{
+	width: 80px;
+	margin-left:-3px;
+}
+.admin-storage-table-header-date{
+	width: 100px;
+	margin-left:-3px;
+}
+
+.header-phone-only{
+	display: none;
+}
+
+@media screen and (max-width: 900px) {
+	.admin-storage-table-header{
+		display: flex;
+		flex-direction: column;
+	}
+	.admin-storage-table-header-content{
+		display: none
+	}
+	.admin-storage-table-content-content{
+		display: flex;
+		flex-direction: column;
+	}
+	.admin-storage-table-content-upper{
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+	}
+	.admin-storage-table-content-number{
+		display: flex;
+		width: 90%;
+		margin: auto;
+	}
+	.admin-storage-table-content-tracking{
+		width: 90%;
+		display: flex;
+		margin: auto;
+	}
+	.admin-storage-table-content-client{
+		width: 90%;
+		display: flex;
+		margin: auto;
+	}
+	.admin-storage-table-content-id{
+		width: 90%;
+		margin: auto;
+		display: flex;
+	}
+	.admin-storage-table-content-address{
+		width: 90%;
+		display: flex;
+		margin: auto;
+	}
+	.admin-storage-table-content-product{
+		width: 90%;
+		display: flex;
+		margin: auto;
+	}
+	.admin-storage-table-content-quality{
+		width: 90%;
+		margin: auto;
+		display: flex;
+	}
+	.admin-storage-table-content-unit{
+		width: 90%;
+		margin: auto;
+		display: flex;
+	}
+	.admin-storage-table-content-packaging{
+		width: 90%;
+		margin: auto;
+		display: flex;
+	}
+	.admin-storage-table-content-weight{
+		width: 90%;
+		margin: auto;
+		display: flex;
+		display: flex;
+	}
+	.admin-storage-table-content-date{
+		width: 90%;
+		margin: auto;
+		display: flex;
+	}
+	.header-phone-only{
+		display: block;
+		width: 120px
+	}
+	.admin-storage-table-content-quality{
+		display: flex;
+	}
+	.admin-storage-table-content-observation{
+		width: 90%;
+		margin: auto;
+	}
+}

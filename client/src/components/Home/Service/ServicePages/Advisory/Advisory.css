@@ -1,0 +1,344 @@
+.advisory-banner{
+	height: 40vh;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../../../../assets/goldtrading.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	bottom: 20px;
+}
+
+.advisory-banner-content{
+	width: 90vw;
+	margin: auto;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100%;
+}
+
+.advisory-banner-h3{
+	font-size: 30px;
+	font-family: Monda;
+	color: white;
+	text-decoration: underline;
+}
+
+.advisory-banner-p{
+	font-size: 24px;
+	color: white;
+}
+
+.service-fontawesome-div{
+	min-width: 50vw;
+	max-width: 100%;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.service-fontawesome-icon-card{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #333232;
+	color: goldenrod;
+	border-radius: 5px;
+	filter: drop-shadow(2px 4px 5px black);
+}
+
+.service-font-awesome-card-p{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 0px
+}
+
+.the-service-fontawesome-icon{
+	font-size: 30px;
+}
+
+@media screen and (max-width: 900px){
+	.advisory-banner{
+		height: 80vh;
+	}
+}
+
+/* =========The content=========== */
+.advisory-content{
+	min-height: 100vh;
+	/* background-color: #202020; */
+	background-color: #333232;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	bottom: 20px;
+}
+
+.advisory-content-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+.advisory-content-content-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.advisory-content-content-left{
+	width: 30vw;
+	height: 80vh;
+	background-image: url(../../../../../assets/goldtrading.jpg);
+	background-position: left;
+	background-size: cover;
+	border-radius:  2px;
+	filter: drop-shadow(2px 4px 5px black);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.advisory-content-content-left-txt{
+	background-color: rgba(0, 0, 0, 0.419);
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	justify-content: flex-end;
+	padding: 10px;
+	height: 100%;
+}
+
+.advisory-content-content-left-header{
+	font-family: Monda;
+	font-size: 40px;
+}
+
+.advisory-content-content-left-p{
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+.advisory-content-content-right{
+	width: 60vw;
+	padding: 20px;
+	text-align: left;
+}
+
+.advisory-content-right-cards-row{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.advisory-content-bottom-card-One{
+	width: 250px;
+	height: 320px;
+	padding: 10px;
+	background-color: #333232;
+	color: black;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	filter: drop-shadow(2px 4px 5px black)
+}
+
+.advisory-content-button{
+	width: 200px;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 1400px){
+	.advisory-content-content-left{
+		display: none;
+	}
+	.advisory-content-content-right{
+		width: 90vw;
+	}
+}
+@media screen and (max-width: 990px){
+	.advisory-content-right-cards{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.advisory-content-right-cards-row{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
+
+/* ==========The advisory-footer========== */
+.advisory-footer{
+	min-height: 70vh;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.686), rgba(0, 0, 0, 0.885)),url(../../../../../assets/goldtrading.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100vw;
+}
+
+.advisory-footer-content{
+	width: 90vw;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.advisory-footer-top{
+	/* background-color: green; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 60vh;
+}
+
+.advisory-footer-top-left{
+	width: 32%;
+	/* background-color: aqua; */
+	/* margin: auto; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.advisory-footer-left-content{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	font-size: 18px;
+}
+
+.f-logo{
+	width: 150px;
+	height: 70px;
+	border-radius: 30px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 2px 4px 5px black;
+}
+
+.advisory-footer-logo{
+	display: flex;
+	justify-content: space-around;
+	width: 350px;
+}
+
+.advisory-footer-social-icons{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 350px;
+	margin-bottom: 10px;
+}
+
+.advisory-footer-logo-text{
+	/* font-size: 60px; */
+	font-family: Monda;
+	color: white;
+}
+
+.advisory-footer-title{
+	text-align: left;
+}
+
+.advisory-footer-input-group{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.advisory-footer-inputs{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.advisory-footer-top-middle{
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	font-size: 18px;
+}
+
+.advisory-footer-top-right{
+	width: 32%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	font-size: 18px;
+	/* color: black; */
+}
+
+.advisory-footer-bottom{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.74);
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subscribe{
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 900px){
+	.advisory-footer-top{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: left;
+		width: 90vw;
+		padding: 0;
+	}
+	.advisory-footer-top-left{
+		width: 90vw;
+	}
+
+	.advisory-footer-logo{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.advisory-footer-top-middle{
+		width: 90vw;
+	}
+	.advisory-footer-top-right{
+		width: 90vw;
+	}
+}

@@ -1,0 +1,96 @@
+/* =======The banner======= */
+.logistics-form-banner{
+    height: 40vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../../../assets/cargoplane\ 1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    bottom: 20px;
+}
+
+.logistics-form-banner-content{
+    max-width: 80vw;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.logistics-form-banner-h3{
+    font-size: 30px;
+    font-family: Monda;
+    color: white;
+    text-decoration: underline;
+}
+
+.logistics-form-banner-p{
+    font-size: 24px;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+    .logistics-form-banner{
+        height: 80vh;
+    }
+}
+
+/* =========logistics quotation form========== */
+.logistics-quotation-form{
+    max-width: 80vw !important;
+    margin-left: 17.5vw;
+}
+.logistics-form-form{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logistics-form-form-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+}
+
+.the-logistics-form-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 75vh;
+}
+
+.logistics-form-small-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logistics-form-small-input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+@media (max-width: 900px){
+    .logistics-form-left{
+        display: none;
+    }
+    .logistics-form-small-inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .the-logistics-form-form{
+        min-width: 90vw;
+        margin: auto;
+    }
+}

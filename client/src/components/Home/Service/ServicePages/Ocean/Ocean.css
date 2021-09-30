@@ -1,0 +1,308 @@
+.ocean-banner{
+    height: 40vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../../../../assets/containership1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    bottom: 20px;
+}
+
+.ocean-banner-content{
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.ocean-banner-h3{
+    font-size: 30px;
+    font-family: Monda;
+    color: white;
+    text-decoration: underline;
+}
+
+.ocean-banner-p{
+    font-size: 24px;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+    .ocean-banner{
+        height: 80vh;
+    }
+}
+
+/* =========The content=========== */
+.ocean-content{
+    min-height: 100vh;
+    /* background-color: #202020; */
+    background-color: #333232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.ocean-content-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.ocean-content-content-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.ocean-content-content-left{
+    width: 30vw;
+    height: 80vh;
+    background-image: url(../../../../../assets/ship2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:  2px;
+    filter: drop-shadow(2px 4px 5px black);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ocean-content-content-left-txt{
+    background-color: rgba(0, 0, 0, 0.419);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding: 10px;
+    height: 100%;
+}
+
+.ocean-content-content-left-header{
+    font-family: Monda;
+    font-size: 40px;
+}
+
+.ocean-content-content-left-p{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.ocean-content-content-right{
+    width: 60vw;
+    padding: 20px;
+    text-align: left;
+}
+
+.ocean-content-right-cards-row{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.ocean-content-bottom-card-One{
+    width: 250px;
+    height: 320px;
+    padding: 10px;
+    background-color: #333232;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    filter: drop-shadow(2px 4px 5px black)
+}
+
+.ocean-content-button{
+    width: 200px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1400px){
+    .ocean-content-content-left{
+        display: none;
+    }
+    .ocean-content-content-right{
+        width: 90vw;
+    }
+}
+@media screen and (max-width: 990px){
+    .ocean-content-right-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ocean-content-right-cards-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/* ==========The ocean-footer========== */
+.ocean-footer{
+    min-height: 70vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.686), rgba(0, 0, 0, 0.885)),url(../../../../../assets/containership1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+}
+
+.ocean-footer-content{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ocean-footer-top{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.ocean-footer-top-left{
+    width: 32%;
+    /* background-color: aqua; */
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ocean-footer-left-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.f-logo{
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 5px black;
+}
+
+.ocean-footer-logo{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.ocean-footer-social-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.ocean-footer-logo-text{
+    /* font-size: 60px; */
+    font-family: Monda;
+    color: white;
+}
+
+.ocean-footer-title{
+    text-align: left;
+}
+
+.ocean-footer-input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.ocean-footer-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.ocean-footer-top-middle{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.ocean-footer-top-right{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    /* color: black; */
+}
+
+.ocean-footer-bottom{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 900px){
+    .ocean-footer-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: left;
+        width: 90vw;
+        padding: 0;
+    }
+    .ocean-footer-top-left{
+        width: 90vw;
+    }
+
+    .ocean-footer-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .ocean-footer-top-middle{
+        width: 90vw;
+    }
+    .ocean-footer-top-right{
+        width: 90vw;
+    }
+}

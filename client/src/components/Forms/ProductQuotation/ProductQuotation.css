@@ -1,0 +1,105 @@
+/* =========product quotation banner========= */
+.product-quotation-banner{
+    height: 40vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.784)), url(../../../assets/ship2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    bottom: 20px;
+}
+
+.product-quotation-banner-content{
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.product-quotation-banner-h3{
+    font-size: 30px;
+    font-family: Monda;
+    color: white;
+    text-decoration: underline;
+}
+
+.product-quotation-banner-p{
+    font-size: 18px;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+    .product-quotation-banner{
+        height: 80vh;
+    }
+}
+
+/* =========product quotation form========== */
+.product-quotation-form{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.product-quotation-form-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+}
+
+.product-quotation-left{
+    width: 35vw;
+    height: 75vh;
+}
+
+.product-quotation-form-image{
+    border-radius: 5px;
+    min-height: 40vh;
+    height: 100%;
+    width: 100%;
+}
+
+.the-product-quotation-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 90vw;
+    min-height: 75vh;
+}
+
+.product-quotation-small-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-quotation-small-input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+@media (max-width: 900px){
+    .product-quotation-left{
+        display: none;
+    }
+    .product-quotation-small-inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .the-product-quotation-form{
+        min-width: 90vw;
+        margin: auto;
+    }
+}
