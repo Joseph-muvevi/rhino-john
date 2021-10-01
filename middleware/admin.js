@@ -1,7 +1,7 @@
 
 const config = require("config");
 
-module.exports = function(req, res, next) {
+module.exports = adminlogins = (req, res, next) =>  {
   // 401 Unauthorized
   // 403 Forbidden
   if (!config.get("requiresAuth")) return next();

@@ -366,6 +366,14 @@
 	margin-left: -1.7rem;
 }
 
+.storage-header-phone-only{
+    display: none
+}
+
+.shipment-header-phone-only{
+    display: none;
+}
+
 @media screen and (max-width: 900px) {
     .tracktype-link-group{
         display: flex;
@@ -385,5 +393,9 @@
     }
     .storage-header-phone-only{
         width: 150px;
+        display: block
+    }
+    .shipment-header-phone-only{
+        display: block;
     }
 }

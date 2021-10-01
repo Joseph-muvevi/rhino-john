@@ -6,31 +6,13 @@ const ShipmentTableContent = ({ array, dates }) => {
 	const content = array;
 	console.log(content, "this is the tablecontent data");
 
-	const [list, setList] = useState([])
 	const [date, setDate] = useState("")
-
-	const datelists = [];
-
-	// console.log(typeof(content.createdAt), "i am the content date")
-
-	// let mydate = content.createdAt.split("T")
-
-	// let theDate = mydate[0]
-
-	// let momentDate = moment(theDate).format("dddd MMMM Do YYYY")
-	// // console.log(momentDate, "This is split date only")
-
-	// const currentDateNow = array.currentdate
-	// const formated = moment(currentDateNow).format("dddd MMMM Do YYYY")
-	// console.log("i am the input date", formated)
-	// console.log("i am the created at date", momentDate)
-
 
 	const listItem = [1]
 
 	useEffect(() => {
 		setDate(content.currentdate)
-		setDate(content._id)
+		// setDate(content._id)
 	}, []);
 
 
@@ -49,13 +31,13 @@ const ShipmentTableContent = ({ array, dates }) => {
 				{console.log("And the date is", date)	}
 
 				{	
-					listItem.length === 1? listItem.map ( 
+					listItem.length <= 1 ? listItem.map ( 
 						el => 
 						<div className="shipment-content-table-content-topic">
 							<p className="shipment-content-table-content-topic-hash">#</p>
 							<p className="shipment-content-table-content-topic-date">
-								{/* {content ? dateString.toString()  : null} */}
-								{content ? content._id  : null}
+								{content ? dateString.toString()  : null}
+								{/* {content ? content._id  : null} */}
 							</p>
 							<p className="shipment-content-table-content-topic-location">
 								Location
@@ -64,9 +46,8 @@ const ShipmentTableContent = ({ array, dates }) => {
 							<p className="shipment-content-table-content-topic-pieces">
 								Pieces
 							</p>
-							{console.log(listItem)}
 						</div>
-					 ) : <p>D0nt print me</p>
+					 ) : null
 				}
 
 				{[content].map(() => (
